@@ -41,22 +41,3 @@ a:hover {
     width: 100%;
     height: 700px;
 }
-
-.opcoes {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: yellow;
-    width: 80%;
-    border: 10px green solid;
-}
-
-.opcoes details {
-    list-style: none;
-}
-
-summary img {
-     
-    width: 20%;
-    border: 10px red solid;
-}
