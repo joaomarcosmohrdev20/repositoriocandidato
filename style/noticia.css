@@ -37,21 +37,6 @@ a:hover {
     padding-bottom: 30px;
 }
 
-.content img {
-    width: 400px;
-    height: 400px;
-    align-items: center;
-    
-}
-
-.content {
-    text-align: center;    
-}
-
 #atual {
     color: orange;
-}
-
-footer {
-    text-align: center;
 }
