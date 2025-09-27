@@ -10,10 +10,8 @@
 }
 
 ul {
-
     display: flex;
     list-style: none;
-
 }
 
 li {
@@ -37,14 +35,14 @@ a:hover {
     padding-bottom: 30px;
 }
 
-.content img {
+.contentimg img {
     width: 400px;
     height: 400px;
     align-items: center;
     
 }
 
-.content {
+.contentimg {
     text-align: center;    
 }
 
@@ -52,6 +50,84 @@ a:hover {
     color: orange;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content summary {
+    list-style: none;
+}
+
+.trajetoria {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.trajetoria h1 {
+    font-size: 40px;
+    color: #112244;
+    margin-bottom: 5%;
+}
+
+.trajetoria p {
+    margin-bottom: 4%;
+}
+
+.btntrajetoria {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    
+    cursor: pointer;
+}
+
+.btntrajetoria:hover {
+    background-color: #ff9900;
+}
+
+.realizacoes {
+    align-items: center;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+
+    width: 60%;
+}
+
+.realizacoes details {
+    font-size: 25px;
+    background-color: orange;
+    color : white;
+     
+}
+
+.realizacoes h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.realizacoes h1:hover {
+    background-color: #ff9900; 
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.realizacoes p {
+    padding: 8px;
+}
+
 footer {
     text-align: center;
+    background-color: #f8f8f8;
+}
+
+.footer_redes_sociais img{
+    margin: 15px;
+    bottom: 0%;
 }

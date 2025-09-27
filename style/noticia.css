@@ -40,3 +40,51 @@ a:hover {
 #atual {
     color: orange;
 }
+
+.content {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.content h1 {
+   background-color: orange;
+   color: white;
+   width: 400px;
+   padding: 5px;
+   text-decoration: none;
+}
+
+.content h1:hover {
+    background-color: #ff9900;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content img {
+    width: 400px;
+    height: 400px;
+}
+
+.content p {
+    width: 400px;
+    border: dashed orange 1px;
+    padding: 3px;
+    border-top: none;
+}
+
+.content summary {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    
+}
+
+.footer_redes_sociais img{
+    margin: 15px;
+    bottom: 0%;
+}

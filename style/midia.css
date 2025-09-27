@@ -43,35 +43,21 @@ a:hover {
 
 }
 
-.biografiacontent h1 {
-    margin-top: 5%;
-    font-size: 40px;
-    color: #ffffff;
-    background-color: #112244;
-    
-}
-
-.biografiacontent p {
-    margin-top: 7%;
-    font-size: 20px;
-    color: #333333;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-}
-
-.content {
-    height: 800px;
-}
 
 #atual {
     color: orange;
 }
 
+
+.content {
+    height: 800px;
+}
+
+
 footer {
     text-align: center;
     background-color: #f8f8f8;
+    
 }
 
 .footer_redes_sociais img{
