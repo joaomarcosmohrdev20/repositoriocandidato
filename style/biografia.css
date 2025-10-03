@@ -1,5 +1,7 @@
 *{
     margin:0%;
+    text-align: center;
+    align-items: center;
 }
 
 .header {
@@ -24,9 +26,12 @@ a {
 }
 
 .header img {
-    height: 40px;
-    margin-left: 3%;
+    height: 85px;
+    width: 85px;
+    margin-left: 8%;
     margin-right: 30%;
+
+    border-radius: 50%;
 }
 
 a:hover {
@@ -35,35 +40,24 @@ a:hover {
     padding-bottom: 30px;
 }
 
-
-.candidato {
-    text-align: center;
-    width: 100%;
-    align-items: center;
-
-}
-
-.biografiacontent h1 {
-    margin-top: 5%;
-    font-size: 40px;
-    color: #ffffff;
-    background-color: #112244;
-    
-}
-
-.biografiacontent p {
-    margin-top: 7%;
-    font-size: 20px;
-    color: #333333;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-}
-
 .content {
-    height: 800px;
+    display: flex;
+    flex-direction: column;
+
 }
+.content img {
+    width: 500px;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content p {
+    font-size: 25px;
+    width: 500px;
+}
+
 
 #atual {
     color: orange;

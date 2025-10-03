@@ -24,9 +24,12 @@ a {
 }
 
 .header img {
-    height: 40px;
-    margin-left: 3%;
+    height: 85px;
+    width: 85px;
+    margin-left: 8%;
     margin-right: 30%;
+
+    border-radius: 50%;
 }
 
 a:hover {
@@ -36,14 +39,14 @@ a:hover {
 }
 
 .contentimg img {
-    width: 400px;
-    height: 400px;
+    width: 40%; 
+    height: 40%;
     align-items: center;
     
 }
 
 .contentimg {
-    text-align: center;    
+    text-align: center;     
 }
 
 #atual {
@@ -61,10 +64,12 @@ a:hover {
 }
 
 .trajetoria {
-    width: 60%;
+    width: 50%;
     margin-left: 20%;
+    margin-right: 10%;
     margin-top: 10%;
     margin-bottom: 15%;
+    text-align: center;
 }
 
 .trajetoria h1 {
@@ -75,6 +80,7 @@ a:hover {
 
 .trajetoria p {
     margin-bottom: 4%;
+    font-size: 25px; 
 }
 
 .btntrajetoria {
@@ -82,12 +88,14 @@ a:hover {
     color: white;
     font-size: 20px;
     padding: 10px;
-    
     cursor: pointer;
 }
 
 .btntrajetoria:hover {
     background-color: #ff9900;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
 }
 
 .realizacoes {
@@ -95,7 +103,7 @@ a:hover {
     margin-right: 20%;
     margin-top: 10%;
     margin-bottom: 15%;
-
+    list-style: none;
     width: 60%;
 }
 
@@ -103,19 +111,28 @@ a:hover {
     font-size: 25px;
     background-color: orange;
     color : white;
-     
 }
 
 .realizacoes h1 {
+    text-align: center;
+    align-items: 100%;
+    font-size: 30px;
+    border: 1px dashed orange;
+    padding: 5px;
+    border-bottom: none;
+}
+
+.realizData {
     text-align: center;
     padding: 5px;
     font-size: 30px;
 }
 
-.realizacoes h1:hover {
+.realizData:hover {
     background-color: #ff9900; 
     cursor: pointer;
     font-size: 35px;
+    padding: 10px;
 }
 
 .realizacoes p {
